@@ -16,14 +16,14 @@ public class Login extends JFrame implements ActionListener{
 		setLayout(null); // to tell swing we don't want to use it's layouts
 		image.setBounds(0,0,600,500); //left, top, length, width
 		
-		JLabel heading= new JLabel("Simple Minds");
-		heading.setBounds(750,60,300,45);
+		JLabel heading= new JLabel("QuizMaster");
+		heading.setBounds(760,60,300,45);
 		heading.setFont(new Font("Viner Hand ITC", Font.BOLD, 40)); //font family, font type, font size
 		heading.setForeground(new Color(30, 144, 254)); // or Color.BLUE
 		add(heading);
 		
-		JLabel name= new JLabel("Simple Minds");
-		name.setBounds(825,150,300,20);
+		JLabel name= new JLabel("QuizMaster");
+		name.setBounds(838,150,300,20);
 		name.setFont(new Font("Mongolian Baiti", Font.BOLD, 18)); //font family, font type, font size
 		name.setForeground(new Color(30, 144, 254)); // or Color.BLUE
 		add(name);
